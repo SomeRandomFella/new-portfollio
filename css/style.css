@@ -117,3 +117,30 @@ footer {
   width: 40px;
   height: 40px;
 }
+
+@media (max-width: 600px) {
+  .hm3 {
+    width: 170px;
+    height: 170px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hm3 {
+    width: 150px;
+    height: 150px;
+    font-size: 10px;
+  }
+  .hm {
+    margin-left: 60px;
+    font-size: 15px;
+  }
+  .hm2 {
+    font-size: 12px;
+    margin-right: 60px;
+  }
+  .hm2 h1 {
+    font-size: 15px;
+  }
+}
