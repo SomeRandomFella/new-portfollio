@@ -1,0 +1,17 @@
+#urg {
+  display: flex;
+  justify-content: center;
+}
+
+.clownns {
+  display: flex;
+  flex-direction: row;
+}
+
+.imlag {
+  width: 250px;
+}
+
+.clowny {
+  margin-right: 30px;
+}
