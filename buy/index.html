@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SPEZZ OFFICIAL</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img class="img" alt="logo" src="spezz.png" />
+      <h2>SPEZZ</h2>
+    </header>
+
+    <div class="title">
+      <h2>⚠️ LIMITED STOCK ⚠️</h2>
+    </div>
+
+    <div class="lil">
+      <div class="content" onclick="downloadFile()">
+        <img class="er" alt="Genesis Menu" src="genesis.png" />
+        <div class="bott">
+          <h4>Genesis Menu</h4>
+          <p class="r">$20.00</p>
+          <p>One of the best menus out there!</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function downloadFile() {
+        const link = document.createElement("a");
+        link.href = "bust.mp3";
+        link.download = "bust.mp3";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
+    </script>
+  </body>
+</html>
